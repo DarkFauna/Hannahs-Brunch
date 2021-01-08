@@ -27,7 +27,7 @@ h3 {
   font-family: "Sacramento", "Futura", Arial, sans-serif;
   font-size: 2.5rem;
   margin: 0 auto;
-  padding: 50px 0;
+  padding: 25px 0;
 }
 
 h4 {
@@ -74,7 +74,7 @@ hr {
   border-bottom: none;
   border-left: none;
   border-right: none;
-  width: 4%;
+  width: 15%;
   margin: 20px auto auto auto;
   padding-bottom: 50px;
 }
@@ -89,7 +89,7 @@ input {
   font-family: "Indie Flower", Arial, sans-serif;
   font-weight: normal;
   font-size: 120%;
-  width: 15%;
+  width: 25%;
   text-align: center;
 }
 
@@ -151,20 +151,24 @@ textarea {
   border-color: #6155a6;
   color: #6155a6;
   margin: 0 20%;
-  padding: 20px;
 }
 
 .credits {
-  background-color: #a685e2;
+  background-color: #ffabe1;
   color: #ffe6e6;
   font-size: 2rem;
+  padding: 10px;
 }
 
 .drinks-img {
   width: 5%;
   float: right;
 }
-.drinks-img-sinners {
+.sinners-img {
   width: 5%;
   float: left;
+}
+.saints-img {
+  width: 5%;
+  float: right;
 }
