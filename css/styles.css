@@ -1,0 +1,170 @@
+body {
+  background-color: #ffe6e6;
+  margin: 0 15%;
+  text-align: center;
+  font-family: "Josefin Slab", "Futura", Arial, sans-serif;
+}
+
+h1 {
+  color: #6155a6;
+  font-size: 5.625rem;
+  margin: 0 auto;
+  padding: 150px;
+  font-family: "Josefin Slab", "Futura", Arial, sans-serif;
+}
+
+h2 {
+  color: #6155a6;
+  font-family: "Josefin Slab", "Futura", Arial, sans-serif;
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+h3 {
+  color: #6155a6;
+  font-family: "Sacramento", "Futura", Arial, sans-serif;
+  font-size: 2.5rem;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+h4 {
+  line-height: 2;
+  color: #6155a6;
+  font-size: 4rem;
+  font-weight: normal;
+  margin: 0 auto;
+  font-family: "Sacramento", "Futura", Arial, sans-serif
+}
+
+h5 {
+  line-height: 2;
+  margin: 0 auto;
+  font-family: "Josefin Slab", "Futura", Arial, sans-serif;
+}
+
+h6 {
+  line-height: 2;
+  color: #6155a6;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0 auto;
+  font-family: "Josefin Slab", "Futura", Arial, sans-serif
+}
+
+p {
+  line-height: 1;
+  color: #ffe6e6;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0 auto;
+  font-family: "Josefin Slab", "Futura", Arial, sans-serif
+}
+
+a {
+  margin: 10px 20px;
+  color: #6155a6;
+  font-family: "Josefin Slab", "Futura", Arial, sans-serif
+}
+
+hr {
+  border: dotted #6155a6 6px;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  width: 4%;
+  margin: 20px auto auto auto;
+  padding-bottom: 50px;
+}
+
+input {
+  margin: 10px;
+  border-color: #6155a6;
+  background-color: #6155a6;
+  border-width: 5px;
+  border-style: solid;
+  color: white;
+  font-family: "Indie Flower", Arial, sans-serif;
+  font-weight: normal;
+  font-size: 120%;
+  width: 15%;
+  text-align: center;
+}
+
+textarea {
+  margin: 10px;
+  background-color: #6155a6;
+  border-color: #6155a6;
+  border-width: 5px;
+  border-style: solid;
+  color: white;
+  font-size: 120%;
+  font-family: "Indie Flower", Arial, sans-serif;
+  width: 90%;
+}
+
+/* CLASS SELECTORS */
+.top {
+  background-color: #ffe6e6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle {
+  background-color: #ffabe1;
+  padding: 10px;
+  margin: 0;
+}
+
+.menu-row {
+  width: 75%;
+  margin: auto;
+  text-align: left;
+  padding-bottom: 80px;
+}
+
+.bottom {
+  background-color: #a685e2;
+  color: #ffe6e6;
+  padding: 20px;
+}
+.sinners{
+  background-color: #a685e2;
+  color: #ffe6e6;
+  padding: 20px;
+}
+.saints{
+  background-color: #ffabe1;
+  color: #ffe6e6;
+  padding: 20px;
+}
+.menu-row-sinners {
+  width: 75%;
+  margin: auto;
+  text-align: right;
+  padding-bottom: 80px;
+}
+.contact {
+  background-color: #ffe6e6;
+  border-color: #6155a6;
+  color: #6155a6;
+  margin: 0 20%;
+  padding: 20px;
+}
+
+.credits {
+  background-color: #a685e2;
+  color: #ffe6e6;
+  font-size: 2rem;
+}
+
+.drinks-img {
+  width: 5%;
+  float: right;
+}
+.drinks-img-sinners {
+  width: 5%;
+  float: left;
+}
