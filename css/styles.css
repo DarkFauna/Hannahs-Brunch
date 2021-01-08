@@ -40,7 +40,9 @@ h4 {
 }
 
 h5 {
+  color: #6155a6;
   line-height: 2;
+  font-size: 1rem;
   margin: 0 auto;
   font-family: "Josefin Slab", "Futura", Arial, sans-serif;
 }
@@ -65,7 +67,7 @@ p {
 
 a {
   margin: 10px 20px;
-  color: #6155a6;
+  color: inherit;
   font-family: "Josefin Slab", "Futura", Arial, sans-serif
 }
 
@@ -154,9 +156,7 @@ textarea {
 }
 
 .credits {
-  background-color: #ffabe1;
-  color: #ffe6e6;
-  font-size: 2rem;
+  background-color: #ffe6e6;
   padding: 10px;
 }
 
@@ -171,4 +171,13 @@ textarea {
 .saints-img {
   width: 5%;
   float: right;
+}
+.submit{
+  cursor: pointer;
+}
+.submit:hover {
+  background: #ffabe1;
+  border: solid #6155a6 5px;
+  font-weight: bolder;
+
 }
